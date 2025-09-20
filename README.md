@@ -1,4 +1,4 @@
-# Easy Upkeep AI — Frontend (Scaffold)
+# Easy Upkeep AI
 
 - React + Vite (port 6600)
 - One CSS file per component/page in `/src/styles`
