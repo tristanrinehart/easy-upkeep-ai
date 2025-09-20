@@ -1,0 +1,6 @@
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #eee; }
+.nav-left a { font-weight: 700; letter-spacing: 0.2px; }
+.nav-right { display: flex; gap: 12px; align-items: center; }
+.user-email { color: var(--muted); font-size: 14px; }
+.signout-btn { background: transparent; border: 1px solid #ccc; border-radius: 6px; padding: 6px 10px; }
+.ml-8 { margin-left: 8px; }

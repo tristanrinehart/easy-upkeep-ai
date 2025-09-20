@@ -1,0 +1,4 @@
+.calendar-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+.calendar-buttons button, .calendar-buttons .google-btn {
+  border: 1px solid #ccc; background: #fff; padding: 6px 10px; border-radius: 6px;
+}

@@ -1,0 +1,63 @@
+/* src/styles/AddItemForm.css */
+
+.addItemForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+}
+
+.field input {
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  outline: none;
+}
+
+.addButton {
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Guard against any global spinner conventions */
+.addButton[aria-busy="true"],
+.addButton.loading,
+.addButton.isLoading,
+.addButton[data-loading="true"] {
+  opacity: 1;
+  pointer-events: auto;
+  background: #2563eb;
+  color: #fff;
+}
+
+/* Hide any nested spinner-ish nodes if some lib injects them */
+.addButton .spinner,
+.addButton [role="status"],
+.addButton [class*="spinner"],
+.addButton [class*="Spinner"],
+.addButton [class*="loading"] {
+  display: none !important;
+}
+
+/* Kill pseudo-element spinners */
+.addButton::before,
+.addButton::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* No animations allowed inside this button */
+.addButton, .addButton * {
+  animation: none !important;
+}

@@ -1,0 +1,6 @@
+.auth-form { display: grid; gap: 10px; max-width: 420px; margin: 20px auto; }
+.auth-form h2 { margin: 0 0 8px 0; }
+.auth-form label { display: grid; gap: 6px; }
+.auth-form input { padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+.auth-form button { padding: 10px; border: 1px solid #ccc; border-radius: 6px; background: #fff; }
+.or { text-align: center; color: var(--muted); }
